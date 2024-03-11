@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 100%;
+}
+
 .flex{
     display: flex;
 }
@@ -33,6 +37,15 @@
     background-color: grey;
     height: 10%;
     border: 1px solid;
+}
+
+.propic{
+    width: 10%;
+    border-radius: 20%;
+}
+
+.testo-mex{
+    width: 90%;
 }
 
 .notifiche{

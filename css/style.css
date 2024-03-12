@@ -64,7 +64,7 @@ body{
 
 .notifiche{
     background-color: #8edafc;
-    height: 15%;
+    height: 20%;
     align-items: center;
     padding: 15px;
     
@@ -94,12 +94,22 @@ body{
 .cerca{
     background-color: white;
     height: 10%;
-    border: 1px solid;
+    align-items: center;
+
 }
+
+.cerca>span{
+    color: grey;
+    font-size:0.8rem ;
+    padding: 10px;
+    border: 0.3px grey;
+    
+}
+
 
 .persona{
     
-    height: 46px;
+    height: calc(100% / 8);
     border: 1px solid;
     background-color: white;
 }

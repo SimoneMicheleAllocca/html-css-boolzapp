@@ -108,11 +108,23 @@ body{
 
 
 .persona{
-    
     height: calc(100% / 8);
-    border: 1px solid;
     background-color: white;
 }
+
+.nome-info{
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.testo-info{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 0.7rem;
+    color: grey;
+}
+
 
 
 

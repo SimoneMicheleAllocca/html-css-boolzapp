@@ -12,6 +12,10 @@ img{
     display: flex;
 }
 
+.col-dir{
+    flex-direction: column;
+}
+
 /* DESKTOP FIRST */
 
 .background{
@@ -77,12 +81,33 @@ img{
     position: relative;
     background-image: url(../img/mine.jpg);
     position: relative;
+    overflow-y: scroll;
 }
 
 .h-chat{
     height: 10%;
-    background-color: grey;
-    border: 1px solid;
+    background-color: #eaeaea;
+    justify-content: space-between;
+    padding: 10px;
+}
+.info{
+    flex-direction: column;
+}
+
+.nome{
+    font-size: 0.8rem;
+}
+
+.accesso{
+    font-size: 0.5rem;
+    color: grey;
+}
+
+.icone-header{
+    font-size: 0.7rem;
+    color: grey;
+    padding: 15px;
+
 }
 
 .inviato{ 
@@ -100,7 +125,7 @@ img{
     background-color: #d5f9ba;
     position: absolute;
     right: 0;
-    top: 50px;
+    top: 70px;
     border-radius: 10%;
 
 }

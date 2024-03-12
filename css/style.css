@@ -16,6 +16,11 @@ img{
     flex-direction: column;
 }
 
+body{
+    font-family: sans-serif;
+}
+
+
 /* DESKTOP FIRST */
 
 .background{
@@ -28,21 +33,23 @@ img{
 .container{
         width: 80%;
         height: 90%;
-        border: 1px solid;
+        
         margin: auto;
 }
 
 .messaggi{
     flex-direction: column;
     width: 35%;
-    border: 1px solid;
+    
     overflow-y: scroll;
 }
 
 .h-messaggi{
-    background-color: grey;
+    background-color: #eaeaea;
     height: 10%;
-    border: 1px solid;
+    
+    justify-content: space-between;
+    align-items: center;
 }
 
 .propic{
@@ -56,10 +63,34 @@ img{
 }
 
 .notifiche{
-    background-color: rgb(3, 234, 255);
+    background-color: #8edafc;
     height: 15%;
-    border: 1px solid;
+    align-items: center;
+    padding: 15px;
+    
 }
+
+.icone-notifica{
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 2rem;
+    color: #8edafc;
+    
+}
+
+.first-notifiche{
+    
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.link>a{
+    color: inherit;
+    color: #578195;
+    font-size: 0.8rem;
+}
+
 .cerca{
     background-color: white;
     height: 10%;
@@ -104,7 +135,7 @@ img{
 }
 
 .icone-header{
-    font-size: 0.7rem;
+    font-size: 1.2rem;
     color: grey;
     padding: 15px;
 

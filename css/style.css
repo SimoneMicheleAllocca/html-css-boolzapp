@@ -5,7 +5,7 @@
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .flex{
@@ -16,7 +16,7 @@ img{
 
 .background{
     width: 100%;
-    background-color:#009688;
+    background-image: linear-gradient(#009587,#dbdbd3);
     height: 100vh;
     align-items: center;
 }
@@ -29,8 +29,10 @@ img{
 }
 
 .messaggi{
+    flex-direction: column;
     width: 35%;
     border: 1px solid;
+    overflow-y: scroll;
 }
 
 .h-messaggi{
@@ -41,7 +43,8 @@ img{
 
 .propic{
     width: 10%;
-    border-radius: 20%;
+    border-radius: 50%;
+
 }
 
 .testo-mex{
@@ -66,9 +69,14 @@ img{
     background-color: white;
 }
 
+
+
 .chat{
+    flex-direction: column;
     width: 65%;
     border: 1px solid;
+    position: relative;
+    background-image: url(../img/mine.jpg);
     position: relative;
 }
 
@@ -79,13 +87,39 @@ img{
 }
 
 .inviato{ 
+    display: flex;
+    width: 20%;
     height: 30%;
-    background-color: lightgreen;
+    
+}
+
+.inviato>p{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    font-size: 0.7rem;
+    background-color: #d5f9ba;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border-radius: 10%;
+
 }
 
 .ricevuto{
+    display: flex;
+    width: 20%;
     height: 30%;
-    background-color: lightcoral;
+}
+
+.ricevuto>p{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    font-size: 0.7rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 10%;
 }
 
 .f-chat{
